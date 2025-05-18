@@ -1,4 +1,3 @@
-````markdown
 # TF-LIDAR-STM32
 
 Modular STM32 library for TF-series LiDAR sensors over UART, CAN and FDCAN.
@@ -43,9 +42,9 @@ Modular STM32 library for TF-series LiDAR sensors over UART, CAN and FDCAN.
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/TF-LIDAR-STM32.git
+   git clone https://github.com/alixahedi/TF-LIDAR-STM32.git
    cd TF-LIDAR-STM32
-````
+   ```
 
 2. **Add to your project**
    Copy the `include/` and `src/` folders into your STM32 project.
@@ -227,9 +226,6 @@ bool tf_lidar_read(tf_lidar_t *lidar, float *distance_m, float *signal);
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
-```
-```
 
 ## 📞 Contact
 For questions or suggestions, feel free to reach out via email:
